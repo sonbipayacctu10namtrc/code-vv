@@ -1,0 +1,1867 @@
+﻿  Animation.cpp
+  Barrel.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Barrel.cpp(9,13): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Barrel.cpp(10,13): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Barrel.cpp(22,13): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Barrel.cpp(23,13): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Barrel.cpp(24,32): error C2039: 'getPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Barrel.cpp(27,13): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+  Board.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Board.cpp(17,52): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\ConsoleApplication2\ConsoleApplication2\Board.cpp(20,56): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  BoardObject.cpp
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(10,69): error C2102: '&' requires l-value
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(10,34): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Animation'
+  D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(10,34):
+  'Animation::Animation': no overloaded function could convert all the argument types
+  	D:\ConsoleApplication2\ConsoleApplication2\Animation.h(17,5):
+  	could be 'Animation::Animation(SDL_Texture *,SDL_Point,float)'
+  		D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(10,34):
+  		'Animation::Animation(SDL_Texture *,SDL_Point,float)': cannot convert argument 1 from 'SDL_Texture **' to 'SDL_Texture *'
+  			D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(10,35):
+  			Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  	D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(10,34):
+  	while trying to match the argument list '(SDL_Texture **, SDL_Point, float)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(18,43): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(18,75): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(19,33): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(19,72): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(38,2): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(50,17): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(80,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(81,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(81,55): error C2102: '&' requires l-value
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(107,43): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(107,75): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(108,33): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\BoardObject.cpp(108,72): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+  BoardSettings.cpp
+  Button.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Button.cpp(6,2): error C2065: 'm_rect': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Button.cpp(7,2): error C2065: 'm_rect': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Button.cpp(8,2): error C2065: 'm_rect': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Button.cpp(9,2): error C2065: 'm_rect': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Button.cpp(16,32): error C2065: 'm_rect': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Button.cpp(22,31): error C2065: 'm_rect': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Button.cpp(24,26): error C2065: 'renderer': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Button.cpp(25,22): error C2065: 'renderer': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Button.cpp(25,33): error C2065: 'm_rect': undeclared identifier
+  ButtonsSettings.cpp
+  Clock.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Clock.h(11,10): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Clock.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(5,16): error C2665: 'VisualObject::VisualObject': no overloaded function could convert all the argument types
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(31,1):
+  could be 'VisualObject::VisualObject(const VisualObject &)'
+  	D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(5,16):
+  	'VisualObject::VisualObject(const VisualObject &)': cannot convert argument 1 from 'const SDL_Point' to 'const VisualObject &'
+  		D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(5,17):
+  		Reason: cannot convert from 'const SDL_Point' to 'const VisualObject'
+  		D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(5,17):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(5,16):
+  while trying to match the argument list '(const SDL_Point)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(7,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(8,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(11,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(12,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(20,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(20,24): error C2039: 'to_string': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\experimental\string(20,1):
+  see declaration of 'std'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(20,24): error C3861: 'to_string': identifier not found
+D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(20,56): error C2039: 'to_string': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\experimental\string(20,1):
+  see declaration of 'std'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Clock.cpp(20,56): error C3861: 'to_string': identifier not found
+  ComputerPlayer.cpp
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,13): error C3646: 'getFeature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,23): error C2059: syntax error: '('
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,13): error C3646: 'm_feature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,5): error C2653: 'sf': is not a class or namespace name
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,15): error C3646: 'm_freezeClock': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(118,21): error C2061: syntax error: identifier 'feature'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ComputerPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(7,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(9,66): error C2102: '&' requires l-value
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(9,29): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Animation'
+  D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(9,29):
+  'Animation::Animation': no overloaded function could convert all the argument types
+  	D:\ConsoleApplication2\ConsoleApplication2\Animation.h(17,5):
+  	could be 'Animation::Animation(SDL_Texture *,SDL_Point,float)'
+  		D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(9,29):
+  		'Animation::Animation(SDL_Texture *,SDL_Point,float)': cannot convert argument 1 from 'SDL_Texture **' to 'SDL_Texture *'
+  			D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(9,30):
+  			Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  	D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(9,29):
+  	while trying to match the argument list '(SDL_Texture **, SDL_Point, float)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(13,69): error C2102: '&' requires l-value
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(13,33): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Animation'
+  D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(13,33):
+  'Animation::Animation': no overloaded function could convert all the argument types
+  	D:\ConsoleApplication2\ConsoleApplication2\Animation.h(17,5):
+  	could be 'Animation::Animation(SDL_Texture *,SDL_Point,float)'
+  		D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(13,33):
+  		'Animation::Animation(SDL_Texture *,SDL_Point,float)': cannot convert argument 1 from 'SDL_Texture **' to 'SDL_Texture *'
+  			D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(13,34):
+  			Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  	D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(13,33):
+  	while trying to match the argument list '(SDL_Texture **, SDL_Point, float)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(26,19): error C2065: 'm_freezeClock': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(58,52): error C2676: binary '==': 'SDL_Point' does not define this operator or a conversion to a type acceptable to the predefined operator
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(73,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(79,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(85,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(609,5): error C2059: syntax error: 'if'
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(610,2): error C2143: syntax error: missing ';' before '{'
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(614,14): error C2039: 'setRotation': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(616,12): error C2039: 'setRotation': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(621,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(622,15): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(623,13): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(623,36): error C2039: 'getTransform': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(623,77): error C2039: 'getPoint': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(626,49): error C2039: 'getGlobalBounds': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(650,1): error C2181: illegal else without matching if
+D:\ConsoleApplication2\ConsoleApplication2\ComputerPlayer.cpp(105,3): error C1075: '{': no matching token found
+  ContinueButton.cpp
+D:\ConsoleApplication2\ConsoleApplication2\ContinueButton.cpp(7,2): error C2065: 'm_texture': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\ContinueButton.cpp(13,26): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\ContinueButton.cpp(13,40): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\ContinueButton.cpp(13,54): error C2065: 'm_size': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\ContinueButton.cpp(13,64): error C2065: 'm_size': undeclared identifier
+  Controller.cpp
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,13): error C3646: 'getFeature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,23): error C2059: syntax error: '('
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,13): error C3646: 'm_feature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,5): error C2653: 'sf': is not a class or namespace name
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,15): error C3646: 'm_freezeClock': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(118,21): error C2061: syntax error: identifier 'feature'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Clock.h(11,10): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.h(10,22): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.h(11,19): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Score.h(10,7): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,14): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,23): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Controller.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Controller.cpp(24,3): error C2660: 'Controller::handleEvents': function does not take 1 arguments
+  D:\ConsoleApplication2\ConsoleApplication2\Controller.h(35,10):
+  see declaration of 'Controller::handleEvents'
+  D:\ConsoleApplication2\ConsoleApplication2\Controller.cpp(24,3):
+  while trying to match the argument list '(bool)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Controller.cpp(42,18): error C2511: 'void Controller::handleEvents(bool &)': overloaded member function not found in 'Controller'
+  D:\ConsoleApplication2\ConsoleApplication2\Controller.h(10,7):
+  see declaration of 'Controller'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Controller.cpp(55,5): error C2352: 'Controller::clickHandle': a call of a non-static member function requires an object
+  D:\ConsoleApplication2\ConsoleApplication2\Controller.h(39,10):
+  see declaration of 'Controller::clickHandle'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Controller.cpp(90,62): error C2653: 'Source': is not a class or namespace name
+D:\ConsoleApplication2\ConsoleApplication2\Controller.cpp(90,70): error C2065: 'Playing': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Controller.cpp(90,52): error C2275: 'Mix_Chunk': expected an expression instead of a type
+  ControllerSettings.cpp
+D:\ConsoleApplication2\ConsoleApplication2\ControllerSettings.cpp(4,48): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ConsoleApplication2\ConsoleApplication2\ControllerSettings.cpp(4,48): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\ConsoleApplication2\ConsoleApplication2\ControllerSettings.cpp(4,56): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\ConsoleApplication2\ConsoleApplication2\ControllerSettings.cpp(4,56): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  DiamondRock.cpp
+D:\ConsoleApplication2\ConsoleApplication2\DiamondRock.cpp(9,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DiamondRock.cpp(9,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DiamondRock.cpp(10,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DiamondRock.cpp(16,27): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+  Dynamite.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(8,10): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(9,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(9,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(10,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(27,15): error C2039: 'getPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(30,12): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(36,12): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(54,10): error C2039: 'setRotation': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(61,20): error C2039: 'getTransform': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(61,58): error C2039: 'getPoint': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(62,20): error C2039: 'getTransform': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Dynamite.cpp(62,58): error C2039: 'getPoint': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+  DynamiteIndicator.cpp
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.h(10,22): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/DynamiteIndicator.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(5,16): error C2665: 'VisualObject::VisualObject': no overloaded function could convert all the argument types
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(31,1):
+  could be 'VisualObject::VisualObject(const VisualObject &)'
+  	D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(5,16):
+  	'VisualObject::VisualObject(const VisualObject &)': cannot convert argument 1 from 'const SDL_Point' to 'const VisualObject &'
+  		D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(5,17):
+  		Reason: cannot convert from 'const SDL_Point' to 'const VisualObject'
+  		D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(5,17):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(5,16):
+  while trying to match the argument list '(const SDL_Point)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(8,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(8,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(9,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(13,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(14,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(15,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(21,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(21,28): error C2039: 'to_string': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\experimental\string(20,1):
+  see declaration of 'std'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.cpp(21,28): error C3861: 'to_string': identifier not found
+  ExitButton.cpp
+D:\ConsoleApplication2\ConsoleApplication2\ExitButton.cpp(4,13): error C2511: 'ExitButton::ExitButton(const SDL_Point &,const SDL_Point &)': overloaded member function not found in 'ExitButton'
+  D:\ConsoleApplication2\ConsoleApplication2\ExitButton.h(5,7):
+  see declaration of 'ExitButton'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ExitButton.cpp(6,1): error C2550: 'ExitButton::{ctor}': constructor initializer lists are only allowed on constructor definitions
+D:\ConsoleApplication2\ConsoleApplication2\ExitButton.cpp(7,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ExitButton.cpp(13,39): error C2039: 'getRect': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ExitButton.cpp(13,6): error C2660: 'SDL_PointInRect': function does not take 1 arguments
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(110,27):
+  see declaration of 'SDL_PointInRect'
+  D:\ConsoleApplication2\ConsoleApplication2\ExitButton.cpp(13,6):
+  while trying to match the argument list '(const SDL_Point *)'
+  
+  Factory.cpp
+  GameController.cpp
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,13): error C3646: 'getFeature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,23): error C2059: syntax error: '('
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,13): error C3646: 'm_feature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,5): error C2653: 'sf': is not a class or namespace name
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,15): error C3646: 'm_freezeClock': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(118,21): error C2061: syntax error: identifier 'feature'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Clock.h(11,10): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.h(10,22): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.h(11,19): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Score.h(10,7): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,14): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,23): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/GameController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(13,22): error C2511: 'bool GameController::playGame(SDL_Renderer *,bool)': overloaded member function not found in 'GameController'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(12,7):
+  see declaration of 'GameController'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(17,32): error C2597: illegal reference to non-static member 'GameController::m_player2'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(32,17):
+  see declaration of 'GameController::m_player2'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(20,32): error C2597: illegal reference to non-static member 'GameController::m_computerPlayer'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(33,20):
+  see declaration of 'GameController::m_computerPlayer'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(25,3): error C2597: illegal reference to non-static member 'GameController::m_IsLevelRun'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(35,10):
+  see declaration of 'GameController::m_IsLevelRun'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(39,32): error C2664: 'const type_info &GameController::handleSummaryEvents(SDL_Window *,int)': cannot convert argument 1 from 'SDL_Renderer *' to 'SDL_Window *'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(39,52):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(41,27):
+  see declaration of 'GameController::handleSummaryEvents'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(39,32):
+  while trying to match the argument list '(SDL_Renderer *, int)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(42,7): error C2597: illegal reference to non-static member 'GameController::m_IsLevelRun'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(35,10):
+  see declaration of 'GameController::m_IsLevelRun'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(42,7): error C2451: a conditional expression of type 'unknown' is not valid
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(42,7):
+  ill-formed reference to a non-static member
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(50,4): error C2352: 'GameController::resetPlayers': a call of a non-static member function requires an object
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(53,10):
+  see declaration of 'GameController::resetPlayers'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(55,2): error C2664: 'void GameController::showGameOverMenu(SDL_Window *,bool)': cannot convert argument 1 from 'SDL_Renderer *' to 'SDL_Window *'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(55,19):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(49,10):
+  see declaration of 'GameController::showGameOverMenu'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(55,2):
+  while trying to match the argument list '(SDL_Renderer *, bool)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(57,9): error C2664: 'bool GameController::handleGameOverEvents(SDL_Window *)': cannot convert argument 1 from 'SDL_Renderer *' to 'SDL_Window *'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(57,30):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(51,10):
+  see declaration of 'GameController::handleGameOverEvents'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(57,9):
+  while trying to match the argument list '(SDL_Renderer *)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(61,39): error C2511: 'const type_info &GameController::handleSummaryEvents(SDL_Renderer *,int)': overloaded member function not found in 'GameController'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(12,7):
+  see declaration of 'GameController'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(77,12): error C2664: 'const type_info &GameController::summaryClickHandle(const SDL_Point,SDL_Window *,int)': cannot convert argument 2 from 'SDL_Renderer *' to 'SDL_Window *'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(77,67):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(45,27):
+  see declaration of 'GameController::summaryClickHandle'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(77,12):
+  while trying to match the argument list '(initializer list, SDL_Renderer *, int)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(86,39): error C2511: 'const type_info &GameController::summaryClickHandle(const SDL_Point &,SDL_Renderer *,int)': overloaded member function not found in 'GameController'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(12,7):
+  see declaration of 'GameController'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(88,30): error C2530: 'type1': references must be initialized
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(102,3): error C2597: illegal reference to non-static member 'GameController::m_IsLevelRun'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(35,10):
+  see declaration of 'GameController::m_IsLevelRun'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(110,22): error C2511: 'void GameController::showGameOverMenu(SDL_Renderer *,bool)': overloaded member function not found in 'GameController'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(12,7):
+  see declaration of 'GameController'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(136,22): error C2511: 'bool GameController::handleGameOverEvents(SDL_Renderer *)': overloaded member function not found in 'GameController'
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(12,7):
+  see declaration of 'GameController'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(155,33): error C2530: 'type': references must be initialized
+D:\ConsoleApplication2\ConsoleApplication2\GameController.cpp(158,7): error C2352: 'GameController::resetPlayers': a call of a non-static member function requires an object
+  D:\ConsoleApplication2\ConsoleApplication2\GameController.h(53,10):
+  see declaration of 'GameController::resetPlayers'
+  
+  GameOverMenu.cpp
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(9,25): error C2065: 'renderer': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(10,21): error C2065: 'renderer': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(14,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(29,2): error C2065: 'm_winner': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(30,2): error C2065: 'm_winner': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(31,2): error C2065: 'm_winner': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(33,2): error C2065: 'm_winner': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(42,45): error C2039: 'getRect': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(42,2): error C2660: 'SDL_RenderFillRect': function does not take 1 arguments
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_render.h(1352,29):
+  see declaration of 'SDL_RenderFillRect'
+  D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(42,2):
+  while trying to match the argument list '(SDL_Renderer *)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(51,2): error C2065: 'm_winner': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\GameOverMenu.cpp(57,2): error C2065: 'm_winner': undeclared identifier
+  GoldenRock.cpp
+D:\ConsoleApplication2\ConsoleApplication2\GoldenRock.cpp(10,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GoldenRock.cpp(10,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\GoldenRock.cpp(16,25): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+  Generating Code...
+  Compiling...
+  HomeButton.cpp
+D:\ConsoleApplication2\ConsoleApplication2\HomeButton.cpp(4,13): error C2511: 'HomeButton::HomeButton(const SDL_Point &,const SDL_Point &)': overloaded member function not found in 'HomeButton'
+  D:\ConsoleApplication2\ConsoleApplication2\HomeButton.h(5,7):
+  see declaration of 'HomeButton'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HomeButton.cpp(6,1): error C2550: 'HomeButton::{ctor}': constructor initializer lists are only allowed on constructor definitions
+D:\ConsoleApplication2\ConsoleApplication2\HomeButton.cpp(7,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HomeButton.cpp(13,39): error C2039: 'getRect': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HomeButton.cpp(13,6): error C2660: 'SDL_PointInRect': function does not take 1 arguments
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(110,27):
+  see declaration of 'SDL_PointInRect'
+  D:\ConsoleApplication2\ConsoleApplication2\HomeButton.cpp(13,6):
+  while trying to match the argument list '(const SDL_Point *)'
+  
+  HomeMenu.cpp
+D:\ConsoleApplication2\ConsoleApplication2\HomeMenu.cpp(8,15): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HomeMenu.cpp(8,47): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HomeMenu.cpp(25,15): error C2039: 'draw': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+  Hook.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(9,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(9,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(10,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(11,10): error C2039: 'setOrigin': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(11,30): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(28,9): error C2039: 'setColor': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(29,9): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(30,10): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(37,9): error C2039: 'draw': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(44,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(44,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(45,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(46,10): error C2039: 'setOrigin': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(46,30): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(53,9): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(54,9): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(55,10): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(62,9): error C2039: 'setRotation': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(63,10): error C2039: 'setRotation': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(64,10): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(76,16): error C2039: 'getTransformedPoint': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(114,26): error C2039: 'getPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(115,26): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(120,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(125,10): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(164,17): error C2039: 'getRect': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(188,41): error C2039: 'getRotation': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(189,12): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(189,44): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(207,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(211,12): error C2511: 'void Hook::grab(SDL_Point &)': overloaded member function not found in 'Hook'
+  D:\ConsoleApplication2\ConsoleApplication2\Hook.h(11,7):
+  see declaration of 'Hook'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(213,6): error C2597: illegal reference to non-static member 'Hook::m_totalGrabTime'
+  D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(213,6):
+  see declaration of 'Hook::m_totalGrabTime'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(213,6): error C3867: 'Hook::m_totalGrabTime': non-standard syntax; use '&' to create a pointer to member
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(213,6): error C2568: '>=': unable to resolve function overload
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(215,3): error C2597: illegal reference to non-static member 'Hook::m_totalGrabTime'
+  D:\ConsoleApplication2\ConsoleApplication2\Hook.h(108,11):
+  see declaration of 'Hook::m_totalGrabTime'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(220,6): error C2597: illegal reference to non-static member 'Hook::m_isAttached'
+  D:\ConsoleApplication2\ConsoleApplication2\Hook.h(104,10):
+  see declaration of 'Hook::m_isAttached'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(220,6): error C2451: a conditional expression of type 'unknown' is not valid
+  D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(220,6):
+  ill-formed reference to a non-static member
+  
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(227,11): error C2676: binary '==': 'const SDL_Point' does not define this operator or a conversion to a type acceptable to the predefined operator
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(229,16): error C2676: binary '==': 'const SDL_Point' does not define this operator or a conversion to a type acceptable to the predefined operator
+D:\ConsoleApplication2\ConsoleApplication2\Hook.cpp(274,6): error C1004: unexpected end-of-file found
+  HookSettings.cpp
+  HumanPlayer.cpp
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,13): error C3646: 'getFeature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,23): error C2059: syntax error: '('
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,13): error C3646: 'm_feature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,5): error C2653: 'sf': is not a class or namespace name
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,15): error C3646: 'm_freezeClock': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(118,21): error C2061: syntax error: identifier 'feature'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/HumanPlayer.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(7,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(7,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(8,52): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(8,29): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Animation'
+  D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(8,29):
+  'Animation::Animation': function does not take 2 arguments
+  	D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(8,29):
+  	while trying to match the argument list '(SDL_Point, float)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(11,56): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(11,33): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'Animation'
+  D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(11,33):
+  'Animation::Animation': function does not take 2 arguments
+  	D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(11,33):
+  	while trying to match the argument list '(SDL_Point, float)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(22,19): error C2065: 'm_freezeClock': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(42,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(42,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(48,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(48,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(54,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\HumanPlayer.cpp(54,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+  LevelController.cpp
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,13): error C3646: 'getFeature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,23): error C2059: syntax error: '('
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,13): error C3646: 'm_feature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,5): error C2653: 'sf': is not a class or namespace name
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,15): error C3646: 'm_freezeClock': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(118,21): error C2061: syntax error: identifier 'feature'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Clock.h(11,10): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.h(10,22): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.h(11,19): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Score.h(10,7): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,14): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,23): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelController.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(6,12): error C2665: 'ToolBar::ToolBar': no overloaded function could convert all the argument types
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(55,1):
+  could be 'ToolBar::ToolBar(ToolBar &&)'
+  	D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(6,12):
+  	'ToolBar::ToolBar(ToolBar &&)': cannot convert argument 1 from 'SDL_Point' to 'ToolBar &&'
+  		D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(6,46):
+  		Reason: cannot convert from 'SDL_Point' to 'ToolBar'
+  		D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(6,46):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(55,1):
+  or       'ToolBar::ToolBar(const ToolBar &)'
+  	D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(6,12):
+  	'ToolBar::ToolBar(const ToolBar &)': cannot convert argument 1 from 'SDL_Point' to 'const ToolBar &'
+  		D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(6,46):
+  		Reason: cannot convert from 'SDL_Point' to 'const ToolBar'
+  		D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(6,46):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(6,12):
+  while trying to match the argument list '(SDL_Point)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(10,15): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(10,47): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(11,15): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(12,15): error C2039: 'setPosition': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(29,40): error C2511: 'const type_info &LevelController::run(SDL_Renderer *)': overloaded member function not found in 'LevelController'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(16,7):
+  see declaration of 'LevelController'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(31,2): error C2065: 'm_clock': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(33,21): error C2664: 'std::string LevelController::handleEvents(SDL_Window *)': cannot convert argument 1 from 'SDL_Renderer *' to 'SDL_Window *'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(33,34):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(55,17):
+  see declaration of 'LevelController::handleEvents'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(33,21):
+  while trying to match the argument list '(SDL_Renderer *)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(37,17): error C2065: 'm_clock': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(38,3): error C2597: illegal reference to non-static member 'LevelController::m_timeElapsed'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(48,11):
+  see declaration of 'LevelController::m_timeElapsed'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(39,19): error C2597: illegal reference to non-static member 'LevelController::m_deltaTime'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(46,11):
+  see declaration of 'LevelController::m_deltaTime'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(39,32): error C2597: illegal reference to non-static member 'LevelController::m_board'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(40,11):
+  see declaration of 'LevelController::m_board'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(39,41): error C2597: illegal reference to non-static member 'LevelController::m_currentLevel'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(39,9):
+  see declaration of 'LevelController::m_currentLevel'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(40,19): error C2597: illegal reference to non-static member 'LevelController::m_deltaTime'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(46,11):
+  see declaration of 'LevelController::m_deltaTime'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(40,32): error C2597: illegal reference to non-static member 'LevelController::m_board'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(40,11):
+  see declaration of 'LevelController::m_board'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(40,41): error C2597: illegal reference to non-static member 'LevelController::m_currentLevel'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(39,9):
+  see declaration of 'LevelController::m_currentLevel'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(44,28): error C2597: illegal reference to non-static member 'LevelController::m_levelTime'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(44,28):
+  see declaration of 'LevelController::m_levelTime'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(44,28): error C3867: 'LevelController::m_levelTime': non-standard syntax; use '&' to create a pointer to member
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(44,28): error C2568: '-': unable to resolve function overload
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(48,3): error C2664: 'void LevelController::draw(SDL_Window *)': cannot convert argument 1 from 'SDL_Renderer *' to 'SDL_Window *'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(48,8):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(59,10):
+  see declaration of 'LevelController::draw'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(48,3):
+  while trying to match the argument list '(SDL_Renderer *)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(51,10): error C2664: 'std::string LevelController::handleEvents(SDL_Window *)': cannot convert argument 1 from 'SDL_Renderer *' to 'SDL_Window *'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(51,23):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(55,17):
+  see declaration of 'LevelController::handleEvents'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(51,10):
+  while trying to match the argument list '(SDL_Renderer *)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(54,4): error C2065: 'm_clock': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(73,30): error C2511: 'std::string LevelController::handleEvents(SDL_Renderer *)': overloaded member function not found in 'LevelController'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(16,7):
+  see declaration of 'LevelController'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(94,13): error C2664: 'const type_info &LevelController::clickHandle(SDL_Window *,const SDL_Point &)': cannot convert argument 1 from 'SDL_Renderer *' to 'SDL_Window *'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(94,25):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(75,27):
+  see declaration of 'LevelController::clickHandle'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(94,13):
+  while trying to match the argument list '(SDL_Renderer *, initializer list)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(106,35): error C2597: illegal reference to non-static member 'LevelController::m_player2'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(45,13):
+  see declaration of 'LevelController::m_player2'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(121,28): error C2597: illegal reference to non-static member 'LevelController::m_levelTime'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(121,28):
+  see declaration of 'LevelController::m_levelTime'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(121,28): error C3867: 'LevelController::m_levelTime': non-standard syntax; use '&' to create a pointer to member
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(121,28): error C2568: '-': unable to resolve function overload
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(128,23): error C2511: 'void LevelController::draw(SDL_Renderer *)': overloaded member function not found in 'LevelController'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(16,7):
+  see declaration of 'LevelController'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(130,2): error C2660: 'SDL_RenderCopy': function does not take 3 arguments
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_render.h(1409,29):
+  see declaration of 'SDL_RenderCopy'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(130,2):
+  while trying to match the argument list '(SDL_Renderer *, nullptr, nullptr)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(158,40): error C2511: 'const type_info &LevelController::clickHandle(SDL_Renderer *,const SDL_Point &)': overloaded member function not found in 'LevelController'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(16,7):
+  see declaration of 'LevelController'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(160,29): error C2530: 'type': references must be initialized
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(165,11): error C2664: 'const type_info &LevelController::pauseMenuHandleEvent(SDL_Window *)': cannot convert argument 1 from 'SDL_Renderer *' to 'SDL_Window *'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(165,32):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(79,27):
+  see declaration of 'LevelController::pauseMenuHandleEvent'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(165,11):
+  while trying to match the argument list '(SDL_Renderer *)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(172,63): error C2653: 'Source': is not a class or namespace name
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(172,71): error C2065: 'Playing': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(172,53): error C2275: 'Mix_Chunk': expected an expression instead of a type
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(186,12): error C2664: 'const type_info &LevelController::pauseMenuHandleEvent(SDL_Window *)': cannot convert argument 1 from 'SDL_Renderer *' to 'SDL_Window *'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(186,33):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(79,27):
+  see declaration of 'LevelController::pauseMenuHandleEvent'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(186,12):
+  while trying to match the argument list '(SDL_Renderer *)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.cpp(203,40): error C2511: 'const type_info &LevelController::pauseMenuHandleEvent(SDL_Renderer *)': overloaded member function not found in 'LevelController'
+  D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(16,7):
+  see declaration of 'LevelController'
+  
+  LevelIndicator.cpp
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.h(11,19): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/LevelIndicator.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(5,19): error C2665: 'VisualObject::VisualObject': no overloaded function could convert all the argument types
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(31,1):
+  could be 'VisualObject::VisualObject(const VisualObject &)'
+  	D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(5,19):
+  	'VisualObject::VisualObject(const VisualObject &)': cannot convert argument 1 from 'const SDL_Point' to 'const VisualObject &'
+  		D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(5,20):
+  		Reason: cannot convert from 'const SDL_Point' to 'const VisualObject'
+  		D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(5,20):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(5,19):
+  while trying to match the argument list '(const SDL_Point)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(5,31): error C2614: 'LevelIndicator': illegal member initialization: 'm_level' is not a base or member
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(8,13): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(8,64): error C2102: '&' requires l-value
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(9,13): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(13,5): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(14,5): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(20,5): error C2065: 'm_level': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(21,5): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.cpp(21,49): error C2065: 'm_level': undeclared identifier
+  LevelSettings.cpp
+  Main.cpp
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,13): error C3646: 'getFeature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,23): error C2059: syntax error: '('
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,13): error C3646: 'm_feature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,5): error C2653: 'sf': is not a class or namespace name
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,15): error C3646: 'm_freezeClock': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(118,21): error C2061: syntax error: identifier 'feature'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Clock.h(11,10): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.h(10,22): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.h(11,19): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Score.h(10,7): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,14): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelController.h(49,23): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Main.cpp')
+  
+  Menu.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Menu.cpp(6,16): error C2665: 'SDL_Rect::SDL_Rect': no overloaded function could convert all the argument types
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(82,1):
+  could be 'SDL_Rect::SDL_Rect(SDL_Rect &&)'
+  	D:\ConsoleApplication2\ConsoleApplication2\Menu.cpp(6,16):
+  	'SDL_Rect::SDL_Rect(SDL_Rect &&)': cannot convert argument 1 from 'const SDL_Point' to 'SDL_Rect &&'
+  		D:\ConsoleApplication2\ConsoleApplication2\Menu.cpp(6,17):
+  		Reason: cannot convert from 'const SDL_Point' to 'SDL_Rect'
+  		D:\ConsoleApplication2\ConsoleApplication2\Menu.cpp(6,17):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(82,1):
+  or       'SDL_Rect::SDL_Rect(const SDL_Rect &)'
+  	D:\ConsoleApplication2\ConsoleApplication2\Menu.cpp(6,16):
+  	'SDL_Rect::SDL_Rect(const SDL_Rect &)': cannot convert argument 1 from 'const SDL_Point' to 'const SDL_Rect &'
+  		D:\ConsoleApplication2\ConsoleApplication2\Menu.cpp(6,17):
+  		Reason: cannot convert from 'const SDL_Point' to 'const SDL_Rect'
+  		D:\ConsoleApplication2\ConsoleApplication2\Menu.cpp(6,17):
+  		No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  D:\ConsoleApplication2\ConsoleApplication2\Menu.cpp(6,16):
+  while trying to match the argument list '(const SDL_Point)'
+  
+  MultiPlayerBtn.cpp
+D:\ConsoleApplication2\ConsoleApplication2\MultiPlayerBtn.cpp(8,2): error C2065: 'm_texture': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MultiPlayerBtn.cpp(8,35): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\MultiPlayerBtn.cpp(9,6): error C2065: 'm_texture': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MultiPlayerBtn.cpp(19,17): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MultiPlayerBtn.cpp(19,44): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MultiPlayerBtn.cpp(19,59): error C2065: 'm_size': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MultiPlayerBtn.cpp(20,14): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MultiPlayerBtn.cpp(20,41): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MultiPlayerBtn.cpp(20,56): error C2065: 'm_size': undeclared identifier
+  MuteButton.cpp
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(8,2): error C2065: 'm_texture': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(8,35): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(9,6): error C2065: 'm_texture': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(18,17): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(18,44): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(18,59): error C2065: 'm_size': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(19,14): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(19,41): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(19,56): error C2065: 'm_size': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(23,3): error C2065: 'm_texture': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(23,46): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(24,25): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\MuteButton.cpp(25,7): error C2065: 'm_texture': undeclared identifier
+  Object.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Object.cpp(6,2): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Object.cpp(12,6): error C2065: 'm_texture': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Object.cpp(13,25): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Object.cpp(13,39): error C2065: 'm_position': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Object.cpp(13,53): error C2065: 'm_textureWidth': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Object.cpp(13,69): error C2065: 'm_textureHeight': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Object.cpp(14,28): error C2065: 'm_texture': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Object.cpp(21,9): error C2065: 'm_position': undeclared identifier
+  PauseButton.cpp
+D:\ConsoleApplication2\ConsoleApplication2\PauseButton.cpp(7,2): error C2065: 'm_texture': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\PauseButton.cpp(7,35): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+D:\ConsoleApplication2\ConsoleApplication2\PauseButton.cpp(13,31): error C2065: 'm_rect': undeclared identifier
+  PauseMenu.cpp
+D:\ConsoleApplication2\ConsoleApplication2\PauseMenu.cpp(4,12): error C2511: 'PauseMenu::PauseMenu(const SDL_Point &)': overloaded member function not found in 'PauseMenu'
+  D:\ConsoleApplication2\ConsoleApplication2\PauseMenu.h(9,7):
+  see declaration of 'PauseMenu'
+  
+D:\ConsoleApplication2\ConsoleApplication2\PauseMenu.cpp(6,1): error C2550: 'PauseMenu::{ctor}': constructor initializer lists are only allowed on constructor definitions
+D:\ConsoleApplication2\ConsoleApplication2\PauseMenu.cpp(16,42): error C2039: 'getTexture': is not a member of 'Textures'
+  D:\ConsoleApplication2\ConsoleApplication2\Textures.h(8,7):
+  see declaration of 'Textures'
+  
+  Player.cpp
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,13): error C3646: 'getFeature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,23): error C2059: syntax error: '('
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,13): error C3646: 'm_feature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,5): error C2653: 'sf': is not a class or namespace name
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,15): error C3646: 'm_freezeClock': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(96,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(106,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.h(118,21): error C2061: syntax error: identifier 'feature'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Player.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(7,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(8,10): error C2039: 'setTextureRect': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(14,2): error C2065: 'm_font': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(15,11): error C2653: 'sf': is not a class or namespace name
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(15,26): error C2065: 'm_font': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(15,15): error C3861: 'Text': identifier not found
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(15,2): error C2593: 'operator =' is ambiguous
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(3247,32):
+  could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(3239,32):
+  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(3139,32):
+  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(3018,32):
+  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept(<expr>)'
+  D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(15,2):
+  while trying to match the argument list '(std::string, unknown-type)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(18,9): error C2039: 'setPosition': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(21,32): error C2039: 'getTransform': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(21,70): error C2039: 'getPoint': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(21,23): error C2440: '<function-style-cast>': cannot convert from 'float' to 'Dynamite'
+  D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(21,23):
+  'Dynamite::Dynamite': no overloaded function could convert all the argument types
+  	D:\ConsoleApplication2\ConsoleApplication2\Dynamite.h(42,1):
+  	could be 'Dynamite::Dynamite(Dynamite &&)'
+  		D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(21,23):
+  		'Dynamite::Dynamite(Dynamite &&)': cannot convert argument 1 from 'float' to 'Dynamite &&'
+  			D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(21,116):
+  			Reason: cannot convert from 'float' to 'Dynamite'
+  	D:\ConsoleApplication2\ConsoleApplication2\Dynamite.h(42,1):
+  	or       'Dynamite::Dynamite(const Dynamite &)'
+  		D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(21,23):
+  		'Dynamite::Dynamite(const Dynamite &)': cannot convert argument 1 from 'float' to 'const Dynamite &'
+  			D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(21,116):
+  			Reason: cannot convert from 'float' to 'const Dynamite'
+  	D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(21,23):
+  	while trying to match the argument list '(float)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(30,9): error C2039: 'setFont': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(30,17): error C2065: 'm_font': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(32,75): error C2039: 'getSurface': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(32,29): error C2660: 'SDL_CreateTextureFromSurface': function does not take 1 arguments
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_render.h(362,39):
+  see declaration of 'SDL_CreateTextureFromSurface'
+  D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(32,29):
+  while trying to match the argument list '(SDL_Renderer *)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(33,54): error C2039: 'getPosition': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(33,2): error C2660: 'SDL_RenderCopy': function does not take 3 arguments
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_render.h(1409,29):
+  see declaration of 'SDL_RenderCopy'
+  D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(33,2):
+  while trying to match the argument list '(SDL_Renderer *, SDL_Texture *, int)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(40,10): error C2039: 'setTextureRect': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(46,10): error C2039: 'setTextureRect': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(62,16): error C2039: 'makeDynamiteVissible': is not a member of 'Dynamite'
+  D:\ConsoleApplication2\ConsoleApplication2\Dynamite.h(5,7):
+  see declaration of 'Dynamite'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(79,16): error C2039: 'makeDynamiteVissible': is not a member of 'Dynamite'
+  D:\ConsoleApplication2\ConsoleApplication2\Dynamite.h(5,7):
+  see declaration of 'Dynamite'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(95,11): error C2039: 'setTextureRect': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Player.cpp(138,19): error C1075: '{': no matching token found
+  PlayerSettings.cpp
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(12,22): error C3646: 'getPlayer1Pos': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(12,36): error C2059: syntax error: ')'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(12,37): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(16,22): error C3646: 'getPlayer2Pos': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(16,36): error C2059: syntax error: ')'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(16,37): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(20,22): error C3646: 'getPlayerSize': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(20,36): error C2059: syntax error: ')'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(20,37): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(24,22): error C3646: 'm_playerSize': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(24,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(25,22): error C3646: 'm_player1Pos': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(25,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(25,12): error C2086: 'int PlayerSettings::SDL_Point': redefinition
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(26,22): error C3646: 'm_player2Pos': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(26,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(26,12): error C2086: 'int PlayerSettings::SDL_Point': redefinition
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/PlayerSettings.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.cpp(4,27): error C2039: 'm_playerSize': is not a member of 'PlayerSettings'
+  D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(3,7):
+  see declaration of 'PlayerSettings'
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.cpp(5,27): error C2039: 'm_player1Pos': is not a member of 'PlayerSettings'
+  D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(3,7):
+  see declaration of 'PlayerSettings'
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.cpp(6,27): error C2039: 'm_player2Pos': is not a member of 'PlayerSettings'
+  D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(3,7):
+  see declaration of 'PlayerSettings'
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.cpp(9,27): error C2039: 'getPlayer1Pos': is not a member of 'PlayerSettings'
+  D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(3,7):
+  see declaration of 'PlayerSettings'
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.cpp(15,27): error C2039: 'getPlayer2Pos': is not a member of 'PlayerSettings'
+  D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(3,7):
+  see declaration of 'PlayerSettings'
+  
+D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.cpp(21,27): error C2039: 'getPlayerSize': is not a member of 'PlayerSettings'
+  D:\ConsoleApplication2\ConsoleApplication2\PlayerSettings.h(3,7):
+  see declaration of 'PlayerSettings'
+  
+  RegularRock.cpp
+D:\ConsoleApplication2\ConsoleApplication2\RegularRock.cpp(10,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\RegularRock.cpp(18,34): error C2039: 'getSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+  ResumeButton.cpp
+D:\ConsoleApplication2\ConsoleApplication2\ResumeButton.cpp(7,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ResumeButton.cpp(13,39): error C2039: 'getGlobalBounds': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ResumeButton.cpp(13,6): error C2660: 'SDL_PointInRect': function does not take 1 arguments
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(110,27):
+  see declaration of 'SDL_PointInRect'
+  D:\ConsoleApplication2\ConsoleApplication2\ResumeButton.cpp(13,6):
+  while trying to match the argument list '(const SDL_Point *)'
+  
+  Rock.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Rock.cpp(4,7): error C2511: 'Rock::Rock(SDL_Point)': overloaded member function not found in 'Rock'
+  D:\ConsoleApplication2\ConsoleApplication2\Rock.h(7,7):
+  see declaration of 'Rock'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Rock.cpp(6,1): error C2550: 'Rock::{ctor}': constructor initializer lists are only allowed on constructor definitions
+D:\ConsoleApplication2\ConsoleApplication2\Rock.cpp(12,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+  Generating Code...
+  Compiling...
+  Score.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Score.h(10,7): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/Score.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Score.cpp(4,8): error C2511: 'Score::Score(SDL_Point)': overloaded member function not found in 'Score'
+  D:\ConsoleApplication2\ConsoleApplication2\Score.h(5,7):
+  see declaration of 'Score'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Score.cpp(6,1): error C2550: 'Score::{ctor}': constructor initializer lists are only allowed on constructor definitions
+D:\ConsoleApplication2\ConsoleApplication2\Score.cpp(8,50): error C2102: '&' requires l-value
+D:\ConsoleApplication2\ConsoleApplication2\Score.cpp(13,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Score.cpp(14,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Score.cpp(15,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Score.cpp(16,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Score.cpp(22,2): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\Score.cpp(22,22): error C2039: 'to_string': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\experimental\string(20,1):
+  see declaration of 'std'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Score.cpp(22,22): error C3861: 'to_string': identifier not found
+  SinglePlayerBtn.cpp
+D:\ConsoleApplication2\ConsoleApplication2\SinglePlayerBtn.cpp(7,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\SinglePlayerBtn.cpp(13,39): error C2039: 'getRect': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\SinglePlayerBtn.cpp(13,6): error C2660: 'SDL_PointInRect': function does not take 1 arguments
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(110,27):
+  see declaration of 'SDL_PointInRect'
+  D:\ConsoleApplication2\ConsoleApplication2\SinglePlayerBtn.cpp(13,6):
+  while trying to match the argument list '(const SDL_Point *)'
+  
+  Sounds.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Sounds.cpp(49,10): error C2600: 'Sounds::~Sounds': cannot define a compiler-generated special member function (must be declared in the class first)
+  SummaryMenu.cpp
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.h(27,13): error C2143: syntax error: missing ';' before '*'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/SummaryMenu.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.h(27,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/SummaryMenu.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.h(27,21): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/SummaryMenu.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(4,14): error C2511: 'SummaryMenu::SummaryMenu(const SDL_Rect &)': overloaded member function not found in 'SummaryMenu'
+  D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.h(7,7):
+  see declaration of 'SummaryMenu'
+  
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(6,1): error C2550: 'SummaryMenu::{ctor}': constructor initializer lists are only allowed on constructor definitions
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(11,82): error C2039: 'w': is not a member of 'SDL_Point'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(48,16):
+  see declaration of 'SDL_Point'
+  
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(14,2): error C2065: 'm_font': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(14,11): error C3861: 'TTF_OpenFont': identifier not found
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(15,7): error C2065: 'm_font': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(17,43): error C3861: 'TTF_GetError': identifier not found
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(17,13): error C2593: 'operator <<' is ambiguous
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(480,39):
+  could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(448,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(430,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(412,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(394,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(376,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(358,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(340,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(322,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(303,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(277,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(258,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(224,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(206,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(200,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(194,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(189,39):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(686,32):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(730,32):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(766,31):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(811,31):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(928,31):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(934,31):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(939,31):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(945,31):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+  C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.39.33519\include\ostream(1080,32):
+  or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+  D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(17,13):
+  while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, unknown-type)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(23,2): error C2065: 'm_levelIndicator': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(23,28): error C2065: 'm_font': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(23,19): error C3079: an initializer list cannot be used as the right operand of this assignment operator
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(24,2): error C2065: 'm_levelIndicator': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(29,2): error C2065: 'm_player2Score': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(29,26): error C2065: 'm_font': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(29,17): error C3079: an initializer list cannot be used as the right operand of this assignment operator
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(30,2): error C2065: 'm_player2Score': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(35,2): error C2065: 'm_player1Score': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(35,26): error C2065: 'm_font': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(35,17): error C3079: an initializer list cannot be used as the right operand of this assignment operator
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(36,2): error C2065: 'm_player1Score': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(41,2): error C2065: 'm_freeText': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(41,32): error C2065: 'm_font': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(41,13): error C3079: an initializer list cannot be used as the right operand of this assignment operator
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(42,2): error C2065: 'm_freeText': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(48,40): error C2039: 'getTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(48,2): error C2660: 'SDL_RenderCopy': function does not take 3 arguments
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_render.h(1409,29):
+  see declaration of 'SDL_RenderCopy'
+  D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(48,2):
+  while trying to match the argument list '(SDL_Renderer *, nullptr, nullptr)'
+  
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(55,2): error C2065: 'm_levelIndicator': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(57,2): error C2065: 'm_player2Score': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(58,2): error C2065: 'm_player1Score': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(60,2): error C2065: 'm_freeText': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(60,23): error C3861: 'getFreeText': identifier not found
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(62,2): error C2065: 'm_levelIndicator': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(63,2): error C2065: 'm_player2Score': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(64,2): error C2065: 'm_player1Score': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(65,2): error C2065: 'm_freeText': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.cpp(69,26): error C2039: 'getFreeText': is not a member of 'SummaryMenu'
+  D:\ConsoleApplication2\ConsoleApplication2\SummaryMenu.h(7,7):
+  see declaration of 'SummaryMenu'
+  
+  SurpriseBag.cpp
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,13): error C3646: 'getFeature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/SurpriseBag.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,23): error C2059: syntax error: '('
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/SurpriseBag.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(23,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/SurpriseBag.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,13): error C3646: 'm_feature': unknown override specifier
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/SurpriseBag.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(28,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/SurpriseBag.cpp')
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(9,10): error C2039: 'setTexture': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(10,10): error C2039: 'setSize': is not a member of 'SDL_Rect'
+  D:\SDL_vjp\SDL2\SDL2-2.30.1\include\SDL_rect.h(78,16):
+  see declaration of 'SDL_Rect'
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(21,22): error C2039: 'getFeature': is not a member of 'SurpriseBag'
+  D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.h(6,7):
+  see declaration of 'SurpriseBag'
+  
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(21,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(21,22): error C2146: syntax error: missing ';' before identifier 'getFeature'
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(22,1): error C2143: syntax error: missing ';' before '{'
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(22,1): error C2447: '{': missing function header (old-style formal list?)
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(33,3): error C2065: 'm_feature': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(33,15): error C2065: 'EXTRA_DYNAMITE_F': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(36,3): error C2065: 'm_feature': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(36,15): error C2065: 'FREEZE_F': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(39,3): error C2065: 'm_feature': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\SurpriseBag.cpp(39,15): error C2065: 'EXTRA_COINS': undeclared identifier
+  Textures.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Textures.cpp(27,54): error C2065: 'renderer': undeclared identifier
+  ToolBar.cpp
+D:\ConsoleApplication2\ConsoleApplication2\Clock.h(11,10): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ToolBar.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\DynamiteIndicator.h(10,22): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ToolBar.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\LevelIndicator.h(11,19): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ToolBar.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\Score.h(10,7): error C2512: 'VisualObject': no appropriate default constructor available
+  (compiling source file '../../ConsoleApplication2/ConsoleApplication2/ToolBar.cpp')
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ToolBar.cpp(4,10): error C2511: 'ToolBar::ToolBar(SDL_Renderer *,const SDL_Rect &)': overloaded member function not found in 'ToolBar'
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(14,7):
+  see declaration of 'ToolBar'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ToolBar.cpp(10,5): error C2597: illegal reference to non-static member 'ToolBar::m_pauseButton'
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(45,17):
+  see declaration of 'ToolBar::m_pauseButton'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ToolBar.cpp(15,5): error C2597: illegal reference to non-static member 'ToolBar::m_levelIndicator'
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(46,20):
+  see declaration of 'ToolBar::m_levelIndicator'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ToolBar.cpp(19,5): error C2597: illegal reference to non-static member 'ToolBar::m_clock'
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(47,11):
+  see declaration of 'ToolBar::m_clock'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ToolBar.cpp(25,5): error C2597: illegal reference to non-static member 'ToolBar::m_player2Dynamite'
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(48,23):
+  see declaration of 'ToolBar::m_player2Dynamite'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ToolBar.cpp(31,5): error C2597: illegal reference to non-static member 'ToolBar::m_player1Dynamite'
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(49,23):
+  see declaration of 'ToolBar::m_player1Dynamite'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ToolBar.cpp(37,5): error C2597: illegal reference to non-static member 'ToolBar::m_player2Score'
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(50,11):
+  see declaration of 'ToolBar::m_player2Score'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ToolBar.cpp(43,5): error C2597: illegal reference to non-static member 'ToolBar::m_player1Score'
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(51,11):
+  see declaration of 'ToolBar::m_player1Score'
+  
+D:\ConsoleApplication2\ConsoleApplication2\ToolBar.cpp(47,15): error C2511: 'void ToolBar::draw(SDL_Renderer *)': overloaded member function not found in 'ToolBar'
+  D:\ConsoleApplication2\ConsoleApplication2\ToolBar.h(14,7):
+  see declaration of 'ToolBar'
+  
+  VisualObject.cpp
+D:\ConsoleApplication2\ConsoleApplication2\VisualObject.cpp(4,15): error C2511: 'VisualObject::VisualObject(const SDL_Point &,TTF_Font *)': overloaded member function not found in 'VisualObject'
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\VisualObject.cpp(6,1): error C2550: 'VisualObject::{ctor}': constructor initializer lists are only allowed on constructor definitions
+D:\ConsoleApplication2\ConsoleApplication2\VisualObject.cpp(7,5): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\VisualObject.cpp(7,12): error C3079: an initializer list cannot be used as the right operand of this assignment operator
+D:\ConsoleApplication2\ConsoleApplication2\VisualObject.cpp(11,20): error C2511: 'void VisualObject::draw(SDL_Renderer *)': overloaded member function not found in 'VisualObject'
+  D:\ConsoleApplication2\ConsoleApplication2\VisualObject.h(8,7):
+  see declaration of 'VisualObject'
+  
+D:\ConsoleApplication2\ConsoleApplication2\VisualObject.cpp(13,13): error C2352: 'Object::draw': a call of a non-static member function requires an object
+  D:\ConsoleApplication2\ConsoleApplication2\Object.h(22,18):
+  see declaration of 'Object::draw'
+  
+D:\ConsoleApplication2\ConsoleApplication2\VisualObject.cpp(14,5): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\VisualObject.cpp(15,35): error C2065: 'm_text': undeclared identifier
+D:\ConsoleApplication2\ConsoleApplication2\VisualObject.cpp(15,5): error C3861: 'SDL_RenderDrawText': identifier not found
+  Generating Code...
